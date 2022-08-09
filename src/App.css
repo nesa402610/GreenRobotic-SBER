@@ -56,6 +56,7 @@ button {
     width: 100px;
     height: 100px;
 }
+
 .about h1 {
     font-size: 70px;
     line-height: 76px;
@@ -73,12 +74,129 @@ button {
     border-radius: 20px;
     margin-top: 20px;
 }
+
 .about__info {
     max-width: 550px;
 }
+
 .about {
     /* ... */
     background: url('img/back.png') no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.form__container {
+    width: 550px;
+}
+
+.form {
+    background-color: #1D263A;
+    color: #fff;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    text-align: center;
+}
+
+.form h1 {
+    font-size: 48px;
+}
+
+.form p {
+    font-size: 18px;
+    opacity: 0.65;
+}
+
+.form {
+    background-color: #1D263A;
+    color: #fff;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form form {
+    margin-top: 60px;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.form label {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.form input, .form select {
+    border: none;
+    border-radius: 15px;
+    padding: 0 20px;
+    outline: none;
+    font-size: 18px;
+    color: #213053;
+    height: 60px;
+}
+
+.form__submit {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #f6980c;
+    box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+    transition: background-color 0.3s ease-in;
+}
+
+select {
+    appearance: none;
+}
+
+input {
+    outline: none;
+}
+
+footer {
+    padding: 90px 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__copyright {
+    text-align: center;
+    opacity: 0.5;
+    margin-top: 40px;
+}
+
+.footer__group {
+    margin-right: 80px;
+}
+
+footer h3 {
+    opacity: 0.7;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links a {
+    margin-bottom: 15px;
 }
