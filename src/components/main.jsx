@@ -14,8 +14,8 @@ const Main = () => {
                 <Cards/>
                 <div className={'features__border'}/>
                 <Feedback/>
-                <Promo/>
             </section>
+            <Promo/>
             <FormSection/>
         </>
     );
